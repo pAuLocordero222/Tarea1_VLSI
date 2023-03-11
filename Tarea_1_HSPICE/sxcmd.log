@@ -1,6 +1,6 @@
 ### Custom WaveView ADV log file, revision R-2020.12-1 (build Jan 14, ) ###
-### created at 14:25:29 on Sat Mar 11 2023 (Linux AMD64) ###
-### Host Name: redhat003   User ID: paulo_I_2023   PID: 791328   ###
+### created at 15:01:03 on Sat Mar 11 2023 (Linux AMD64) ###
+### Host Name: redhat003   User ID: paulo_I_2023   PID: 806151   ###
 wv_start_log
 # (0) running in waveview only mode
 # (0) SW_SX_PERL_LIB defined
@@ -11,11 +11,30 @@ wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:inv_01.sw0(0)} {+sep=@}
 wv_select_tree_item {Custom WaveView} {} {hierview} {D0:inv_01.sw0(0)@toplevel(0)} {0} {+sep=@}
 wv_select_list_item {Custom WaveView} {} {sigview} {v(y)} 5
 wv_dclick_list_item {Custom WaveView} {} {sigview} {v(y)} 5
-wv_select_waveview 1 {waveview 1}
-wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Vertical Cursor} 
+wv_press_tool_button {Custom WaveView} {} {ExportWaveform0} 
+wv_move_window {WaveformExportParameters} {} 372 78
+wv_move_window {WaveformExportParameters} {} 382 82
+wv_select_dialog {WaveformExportParameters} 
+wv_set_text {WaveformExportParameters} {} {OutFile} "-5"
+wv_close_dialog {WaveformExportParameters} 
+wv_select_window {Custom WaveView} 
+wv_press_key Shift_: 572 86
+wv_press_key "w" 572 86
+wv_press_key "q" 572 86
+wv_move_window {Confirmation} {} 637 381
+wv_move_window {Confirmation} {} 647 385
+wv_select_dialog {Confirmation} 
+wv_close_dialog {Confirmation} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {ExportWaveform0} 
+wv_move_window {WaveformExportParameters} {} 372 78
+wv_move_window {WaveformExportParameters} {} 382 82
+wv_select_dialog {WaveformExportParameters} 
+wv_set_text {WaveformExportParameters} {} {OutFile} "-5"
+wv_press_button {WaveformExportParameters} {} {Ok} 
 wv_close_window {Custom WaveView} 
-wv_move_window {Confirmation} {} 715 381
-wv_move_window {Confirmation} {} 725 385
+wv_move_window {Confirmation} {} 637 381
+wv_move_window {Confirmation} {} 647 385
 wv_select_dialog {Confirmation} 
 #wv_press_button {Confirmation} {} {Ok} 
-#*WARNING* Can not remove '/home/paulo_I_2023/.cx_hostport/.cx_hostport_redhat003_791328'.
+#*WARNING* Can not remove '/home/paulo_I_2023/.cx_hostport/.cx_hostport_redhat003_806151'.
