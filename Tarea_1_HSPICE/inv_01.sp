@@ -17,7 +17,7 @@
 .SUBCKT inv vi vo
 *.step param Wp 100n 3000n 200n
 xm1 vo vi gnd! gnd! ne W=220.00n L=180.00n
-xm0 vo vi vdd! vdd! pe W=1680.5n L=180.00n 
+xm0 vo vi vdd! vdd! pe W=220.5n L=180.00n 
 .ENDS
 
 XINV A Y INV

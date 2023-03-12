@@ -1,7 +1,7 @@
 * "simulator" "PrimeSim HSPICE"
 * "version" "R-2020.12-SP2 linux64"
 * "format" "HSP"
-* "rundate" "21:42:16 03/11/2023 "
+* "rundate" "22:00:51 03/11/2023 "
 * "netlist" "inv_01.sp "
 * "runtitle" "* inv_01.sp"
 * time =    0.            
