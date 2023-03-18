@@ -1,0 +1,64 @@
+### Custom WaveView ADV log file, revision R-2020.12-1 (build Jan 14, ) ###
+### created at 11:00:00 on Sat Mar 18 2023 (Linux AMD64) ###
+### Host Name: redhat003   User ID: paulo_I_2023   PID: 1434677   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {corners.sw0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:corners.sw0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:corners.sw0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {i(vds)} 1
+wv_select_list_item {Custom WaveView} {} {sigview} {i(vds)} 1
+wv_dclick_list_item {Custom WaveView} {} {sigview} {i(vds)} 1
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Vertical Cursor} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSORX1
+wv_drag_item_to WV1 668 122
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 858 145
+wv_press_key "f" 1056 324
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 0.966275 -3.02902e-05
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 700 164
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_press_key "f" 957 328
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 0.641622 -0.00010753
+wv_select_panel WV1.PANEL1:1 0.641622 -0.00010753 btnup
+wv_press_key "f" 789 685
+wv_press_key "f" 789 685
+wv_press_key "f" 789 685
+wv_press_key "f" 789 685
+wv_press_key "f" 789 685
+wv_press_key "f" 789 685
+wv_press_tool_button {Custom WaveView} {} {ExportWaveform0} 
+wv_move_window {WaveformExportParameters} {} 365 78
+wv_move_window {WaveformExportParameters} {} 375 82
+wv_select_dialog {WaveformExportParameters} 
+wv_set_text {WaveformExportParameters} {} {OutFile} "IDS_NMOS"
+wv_press_button {WaveformExportParameters} {} {Ok} 
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 630 381
+wv_move_window {Confirmation} {} 640 385
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/paulo_I_2023/.cx_hostport/.cx_hostport_redhat003_1434677'.
