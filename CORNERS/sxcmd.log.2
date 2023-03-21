@@ -1,6 +1,6 @@
 ### Custom WaveView ADV log file, revision R-2020.12-1 (build Jan 14, ) ###
-### created at 14:34:38 on Sat Mar 18 2023 (Linux AMD64) ###
-### Host Name: redhat003   User ID: paulo_I_2023   PID: 1482982   ###
+### created at 14:36:32 on Sat Mar 18 2023 (Linux AMD64) ###
+### Host Name: redhat003   User ID: paulo_I_2023   PID: 1483258   ###
 wv_start_log
 # (0) running in waveview only mode
 # (0) SW_SX_PERL_LIB defined
@@ -9,32 +9,19 @@ wv_start_log
 sx_open_sim_file_read {corners_sim.tr0}
 wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:corners_sim.tr0(0)} {+sep=@}
 wv_select_tree_item {Custom WaveView} {} {hierview} {D0:corners_sim.tr0(0)@toplevel(0)} {0} {+sep=@}
-wv_select_tree_item {Custom WaveView} {} {hierview} {D0:corners_sim.tr0(0)@toplevel(0)} {0} {+sep=@}
-wv_select_list_item {Custom WaveView} {} {sigview} {v(a)} 3
-wv_dclick_list_item {Custom WaveView} {} {sigview} {v(a)} 3
+wv_select_list_item {Custom WaveView} {} {sigview} {v(vdd)} 4
 wv_select_list_item {Custom WaveView} {} {sigview} {v(y)} 5
 wv_dclick_list_item {Custom WaveView} {} {sigview} {v(y)} 5
-wv_select_waveview 1 {waveview 1}
-wv_waveview_context_menu WV1.PANEL1:1.LEGEND
-wv_select_waveview 1 {waveview 1}
-wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
-wv_move_window {Confirmation} {} 642 381
-wv_move_window {Confirmation} {} 652 385
-wv_select_dialog {Confirmation} 
-wv_press_button {Confirmation} {} {Ok} 
 wv_press_tool_button {Custom WaveView} {} {ExportWaveform0} 
-wv_move_window {WaveformExportParameters} {} 377 78
-wv_move_window {WaveformExportParameters} {} 387 82
+wv_move_window {WaveformExportParameters} {} 365 78
+wv_move_window {WaveformExportParameters} {} 375 82
 wv_select_dialog {WaveformExportParameters} 
-wv_set_text {WaveformExportParameters} {} {OutFile} "tm"
-wv_press_button {WaveformExportParameters} {} {Browse} 
-wv_select_dialog {FileDialog} 
-wv_set_text {FileDialog} {} {FileName} "tm"
-wv_press_button {FileDialog} {} {Ok} 
+wv_set_text {WaveformExportParameters} {} {OutFile} "ws"
 wv_press_button {WaveformExportParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
 wv_close_window {Custom WaveView} 
-wv_move_window {Confirmation} {} 642 381
-wv_move_window {Confirmation} {} 652 385
+wv_move_window {Confirmation} {} 630 381
+wv_move_window {Confirmation} {} 640 385
 wv_select_dialog {Confirmation} 
 #wv_press_button {Confirmation} {} {Ok} 
-#*WARNING* Can not remove '/home/paulo_I_2023/.cx_hostport/.cx_hostport_redhat003_1482982'.
+#*WARNING* Can not remove '/home/paulo_I_2023/.cx_hostport/.cx_hostport_redhat003_1483258'.

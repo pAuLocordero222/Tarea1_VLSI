@@ -5,7 +5,7 @@
 *----------------------------------------------------------------------
 *.option scale=25n
 .param SUP=1.8 * Must set before calling .lib
-.lib '/mnt/vol_NFS_rh003/xfab_pdks/design/xkit/xh018/synopsys/v8_1/hspice/v8_1_2/lpmos/xh018.lib' ws
+.lib '/mnt/vol_NFS_rh003/xfab_pdks/design/xkit/xh018/synopsys/v8_1/hspice/v8_1_2/lpmos/xh018.lib' wz
 .lib '/mnt/vol_NFS_rh003/xfab_pdks/design/xkit/xh018/synopsys/v8_1/hspice/v8_1_2/lpmos/param.lib' 3s
 .lib '/mnt/vol_NFS_rh003/xfab_pdks/design/xkit/xh018/synopsys/v8_1/hspice/v8_1_2/lpmos/config.lib' default
 .option post
